@@ -1,0 +1,105 @@
+.Navbar {
+    background: linear-gradient(45deg, #0ABDE3, transparent);
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 3%;
+}
+
+.Title {
+    font-size: 1.5rem;
+    
+}
+
+.NavItemContainer {
+    display: flex;
+}
+
+.NavItemContainer a {
+    text-decoration: none;
+}
+.secondSet{
+   display: flex;
+}
+.NavItem {
+    display: flex;
+    color: #000;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    
+    cursor: pointer;
+}
+
+
+
+
+.Active {
+    color: #fff;
+    background-color: #0ABDE3;
+    
+}
+.anchor{
+    list-style-type: none;
+    
+}
+.dropdown {
+    display: inline-block;
+    padding: 20px 10px;
+    text-decoration: none;
+    color: #222;
+    transition: background-color 0.2s;
+    outline: none;
+  }
+  .dropdown {
+    cursor: pointer;
+    text-transform: lowercase !important;
+  }
+  .dropdownMenu {
+    position: absolute;
+    top: 55px;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+ .dropdownItem {
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #222;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-weight: 500;
+  }
+  .dropdownItem:hover {
+    background-color: #dbdbdb;
+  }
+  
+  .dropdownMenu {
+    top: 60px;
+    right: 50px;
+  }
+ /* Responsiveness */
+@media (max-width: 480px){
+    .Navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 2%;
+    }
+    .NavItem {
+        display: flex;
+        color: #000;
+        height: 10vh;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    .Title {
+        font-size: 1rem;
+    }
+}

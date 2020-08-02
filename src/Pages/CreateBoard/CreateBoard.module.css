@@ -1,0 +1,33 @@
+.ctr{
+    margin-left: 2.8%;
+}
+p{
+    font-size: 2rem;
+}
+.fields{
+    width: 95% !important;
+    padding:0.75%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    border:2px solid rgb(77, 58, 58);
+    display: block;
+    
+}
+label{
+    font-size: 1.5rem;
+    display: block;
+}
+.CreateBoard{
+    margin-top: 1rem;
+    height:2.5rem;
+    width:5rem;
+    background-color: #0ABDE3;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.CreateBoard:hover{
+    box-shadow: 2px 2px 2px 2px #050000;
+    cursor: pointer;
+}

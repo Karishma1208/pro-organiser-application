@@ -1,0 +1,124 @@
+.colModal{
+    height: 190px;
+    background-color: white;
+    position: fixed;
+    text-align:center;
+    z-index: 500;
+    width: 56%;
+    box-sizing: border-box;
+    left:21%;
+    border-radius: 10px;
+    top: 43%;
+}
+.colHeader{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.colField{
+    margin-top: 1rem;
+    margin-left: 2px;
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr;
+    
+}
+.colBtn{
+    margin-top: 1.2rem;
+    margin-right: 1rem;
+    
+    text-align: right;
+
+}
+.closebtn{
+    background: linear-gradient(45deg, #0ABDE3, transparent);
+    color: black;
+    border-radius: 50%;
+    width:1rem;
+    height: 1rem;
+    margin-left: 92%;
+    
+    
+    
+}
+.closebtn:hover{
+    background: linear-gradient(45deg, red ,transparent);
+    color: white;
+    cursor: pointer;
+}
+
+.CreateColumn{
+    
+    height: 2rem;
+    width: 8rem;
+    background: linear-gradient(45deg, #0ABDE3, transparent);
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+.CreateColumn:hover{
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(45deg, black ,transparent);
+}
+.column_names{
+    border: 1px solid black;
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 90%;
+    border-radius: 5px;
+}
+.middle{
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+    
+.top{
+    color: #0ABDE3;
+    margin-left: 0.6rem;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: flex-start;
+    
+    font-family: sans-serif;
+    font-weight: 700;
+    
+}
+
+/* Responsiveness */
+@media screen and (max-width: 576px) {
+    .colModal{
+    height: 200px;
+    position: fixed;
+    text-align:center;
+    width: 85%;
+    left:10%;
+    top: 20%;
+    }
+    .top{
+        font-size: 1rem;
+    }
+    .closebtn{
+        margin-left: 80%;
+    }
+    .middle{
+        font-size: 0.8rem;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    .column_names{
+        width: 90%;
+    }
+  }
+  @media screen and (min-width: 577px){
+    .closebtn{
+        margin-left: 80%;
+    }
+    .top{
+        font-size: 1rem;
+    }
+    .colModal{
+        height: 220px;
+        
+        }
+  }

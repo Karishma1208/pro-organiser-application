@@ -1,0 +1,51 @@
+.ctrBoard{
+    margin-left: 2.8%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+.para{
+    font-size: 2rem;
+    margin-left: 2.8%;
+}
+.btnBoard{
+    height: 10rem;
+    width:20rem;
+    background: linear-gradient(45deg, #25CCF7, transparent);
+    border:1px solid black;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    
+ }
+ .btnBoard:hover{
+    background: linear-gradient(45deg, black, transparent);
+    color: white;
+    cursor: pointer;
+    box-shadow: 5px 5px 4px 5px #868080;
+    
+    
+ }
+ .txt{
+     display: inline-block;
+     margin-top: 5rem;
+ }
+.emptyMsg{
+    font-size: 1.5rem;
+    margin-left: 2.8%;
+    border: 2px solid black;
+    width: 90%;
+    padding: 1rem;
+    border-radius: 10px;
+    color: black;
+    background: linear-gradient(45deg, #25CCF7, transparent);
+}
+/* Responsiveness */
+
+@media (max-width: 480px){
+    .btnBoard{
+        height: 10rem;
+        width:15rem;
+        
+     }
+}
